@@ -6,7 +6,7 @@ Quando uma mercadoria não tiver nenhuma venda, é informado o valor zero no lug
 
 #include <stdio.h>
 
-#define NUM_MERCADORIAS 5
+#define NUM_MERCADORIAS 100
 
 int main(void) {
     float precos[NUM_MERCADORIAS + 1];

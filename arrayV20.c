@@ -27,9 +27,10 @@ int main(void) {
 
     } while(contador < NUM_INFORMACOES);
 
-    //nesta questão foi aplicado uma matriz "j"
+    //nesta questão foi aplicado uma matriz.
     //Método da bolha(organização) aprendi com ia :)
-    //Ordena os valores em forma decrescente entao a pos atual e comparada com a prox pos e se a pos atual for maior que a pos posterior é realizada a troca de valores na posição.
+    /*Ordena os valores em forma decrescente entao a posição atual e comparada com a prox posição 
+    e se a posição atual for maior que a posição posterior é realizada a troca de valores na posição.*/
     for(int i = 0; i < contador; i++) {
         for(int j = 0; j < contador - i - 1; j++) {
             if(mesesTrabalho[j] < mesesTrabalho[j + 1]) {
