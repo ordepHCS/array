@@ -3,8 +3,8 @@ A seguir transforme-a em um vetor.*/
 
 #include <stdio.h>
 
-#define LINHAS 2
-#define COLUNAS 2
+#define LINHAS 10
+#define COLUNAS 10
 
 int main(void) {
     int matriz[LINHAS][COLUNAS];
