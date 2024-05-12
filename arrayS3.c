@@ -7,7 +7,7 @@
 
 #include <stdio.h>
 
-#define CADASTRO 2
+#define CADASTRO 5
 
 struct Pessoa {
     char nome[50];
